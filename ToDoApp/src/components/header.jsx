@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Header() {
+function Header(props) {
     return (
-        <h1 className='text-black text-2xl text-center p-2'>Todo</h1>
+        <h1 className='text-black text-2xl text-center p-2'>{props.title}</h1>
     )
 }
 
